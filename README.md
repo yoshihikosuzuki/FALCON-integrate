@@ -1,4 +1,4 @@
-# FALCON-integrate
+# FALCON-integrate + minialign
 This is a place to coordinate FALCON builds and tests.
 
 The git-submodules here define a consistent set of revisions.
