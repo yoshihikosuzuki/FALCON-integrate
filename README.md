@@ -3,6 +3,23 @@ This is a place to coordinate FALCON builds and tests.
 
 * **Use fc_run.cfg as an example for minialign version (instead of FALCON-example/run/*)**
 
+## Recommended example of a series of commands for usage
+
+```
+$ git clone --recursive https://github.com/yoshihikosuzuki/FALCON-integrate
+$ cd FALCON-integrate
+$ git submodule update --init
+$ virtualenv fc_env
+$ make init
+$ source env.sh
+$ make config-edit
+(manually comment out "PREFIX" in minialign/Makefile)   # TODO: cope with this
+$ make -j all
+$ fc_run fc_run.cfg   # after edited
+```
+
+---
+
 The git-submodules here define a consistent set of revisions.
 
 You may use any system you like for building, testing, and integration,
