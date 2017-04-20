@@ -1,33 +1,33 @@
 [submodule "pypeFLOW"]
 	path = pypeFLOW
-	url = ../pypeFLOW.git
+	url = https://github.com/PacificBiosciences/pypeFLOW
 [submodule "DALIGNER"]
 	path = DALIGNER
-	url = ../DALIGNER.git
+	url = https://github.com/PacificBiosciences/DALIGNER
 [submodule "DAMASKER"]
 	path = DAMASKER
-	url = ../DAMASKER
+	url = https://github.com/PacificBiosciences/DAMASKER
 [submodule "DAZZ_DB"]
 	path = DAZZ_DB
-	url = ../DAZZ_DB.git
+	url = https://github.com/PacificBiosciences/DAZZ_DB
 [submodule "DEXTRACTOR"]
 	path = DEXTRACTOR
-	url = ../DEXTRACTOR
+	url = https://github.com/PacificBiosciences/DEXTRACTOR
 [submodule "FALCON"]
 	path = FALCON
-	url = ../FALCON.git
+	url = ../FALCON
 [submodule "FALCON_unzip"]
 	path = FALCON_unzip
-	url = git://github.com/PacificBiosciences/FALCON_unzip
+	url = https://github.com/PacificBiosciences/FALCON_unzip
 [submodule "FALCON-make"]
 	path = FALCON-make
-	url = git://github.com/pb-cdunn/FALCON-make.git
+	url = ../FALCON-make
 [submodule "FALCON-examples"]
 	path = FALCON-examples
 	url = git://github.com/pb-cdunn/FALCON-examples.git
 [submodule "git-sym"]
 	path = git-sym
-	url = git://github.com/cdunn2001/git-sym.git
+	url = https://github.com/cdunn2001/git-sym
 [submodule "minialign"]
 	path = minialign
 	url = https://github.com/ocxtal/minialign
