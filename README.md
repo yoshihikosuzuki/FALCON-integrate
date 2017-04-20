@@ -1,6 +1,8 @@
 # FALCON-integrate + minialign
 This is a place to coordinate FALCON builds and tests.
 
+* **Use fc_run.cfg as an example for minialign version (instead of FALCON-example/run/*)**
+
 The git-submodules here define a consistent set of revisions.
 
 You may use any system you like for building, testing, and integration,
