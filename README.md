@@ -1,7 +1,7 @@
 # FALCON-integrate + minialign
 This is a place to coordinate FALCON builds and tests.
 
-* **Use fc_run.cfg as an example for minialign version (instead of FALCON-example/run/*)**
+* **Use fc_run.cfg as a template of the config file for minialign version (instead of FALCON-example/run/*)**
 
 ## Recommended example of a series of commands for usage
 
@@ -9,7 +9,7 @@ This is a place to coordinate FALCON builds and tests.
 $ git clone --recursive https://github.com/yoshihikosuzuki/FALCON-integrate
 $ cd FALCON-integrate
 $ git submodule update --init
-$ virtualenv fc_env
+$ virtualenv fc_env; source fc_env/bin/activate
 $ make init
 $ source env.sh
 $ make config-edit
