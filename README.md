@@ -1,8 +1,7 @@
 # FALCON-integrate + minialign
 This is a place to coordinate FALCON builds and tests.
 
-* **Use fc_run.cfg as a template of the config file for minialign version (instead of FALCON-example/run/*)**
-* **Currently FalconSense does not work with minialign.**
+* **Use fc_run.cfg as a template of the config file for minialign mode (instead of FALCON-example/run/*)**
 
 ## Recommended example of a series of commands for usage
 
