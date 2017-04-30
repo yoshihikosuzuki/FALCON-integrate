@@ -13,8 +13,7 @@ $ virtualenv fc_env; source fc_env/bin/activate
 $ make init
 $ source env.sh
 $ make config-edit
-(manually comment out "PREFIX" in minialign/Makefile)   # TODO: cope with this
-$ make -j all
+$ make all
 $ fc_run fc_run.cfg   # after edited
 ```
 
